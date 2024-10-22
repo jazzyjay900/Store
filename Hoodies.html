@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="Hoodies.css">
+  <script defer src="Hoodies.js"></script>
+  <title>Fashion Fall</title>
+</head>
+<body>
+  <div class="content">
+    <div class="navbar">
+      <a href="index.html"><div class="logoBox">
+         <img id="logo" src="logo.png">
+        </div>
+      </a>
+      <div class="middle">
+        <input type="search" placeholder="Search">
+      </div>
+      <a href="invoice.html">
+        <div>
+          <div id="cartinfo">
+            <p id="cartAmount"></p>
+          </div>
+         <img class="cart" src="cart.png">  
+        </div>
+      </a>
+      
+    </div>
+
+    <div class="body">  
+      <div class="title">
+        Products
+      </div>
+      <div class="main">
+        <div class="hoody-preview">
+          <div class="hoodie-image">
+            <img id="hoody" src="hoodie1.jpg">         
+          </div>
+          <div class="hoodie-info">
+            <p id="Hoodie1-name"></p>
+            <p id="Hoodie1-price"></p>
+            <div class="metaData">
+              <select id="colors" class="colors">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+              <select id="size" class="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="RC">
+              <img class="stars" src="clipart4821497.png">
+              <p>150 ratings</p>
+              <img onclick="getOption(0)" class="add-to-cart" src="clipart410284.png">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="hoody-preview">
+          <div class="hoodie-image">
+            <img id="hoody" src="hoodie2.jpg">         
+          </div>
+          <div class="hoodie-info">
+            <p id="Hoodie2-name"></p>
+            <p id="Hoodie2-price"></p>
+            <div class="metaData">
+              <select id="colors1" class="colors">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+              <select id="size1" class="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="RC">
+              <img class="stars" src="clipart4821483.png">
+              <p>200 ratings</p>
+              <img onclick="getOption2(1)" class="add-to-cart" src="clipart410284.png">
+            </div>
+          </div>
+        </div>       
+        
+        
+        <div class="hoody-preview">
+          <div class="hoodie-image">
+            <img id="hoody" src="hoodie6.jpg">         
+          </div>
+          <div class="hoodie-info">
+            <p id="Hoodie3-name"></p>
+            <p id="Hoodie3-price"></p>
+            <div class="metaData">
+              <select id="colors2" class="colors">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+              <select id="size2" class="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="RC">
+              <img class="stars" src="clipart676982.png">
+              <p>500 ratings</p>
+              <img onclick="getOption3(2)" class="add-to-cart" src="clipart410284.png">
+            </div>
+          </div>
+        </div>  
+
+
+        <div class="hoody-preview">
+          <div class="hoodie-image">
+            <img id="hoody" src="juphooie1.jpg">         
+          </div>
+          <div class="hoodie-info">
+            <p id="Hoodie4-name"></p>
+            <p id="Hoodie4-price"></p>
+            <div class="metaData">
+              <select id="colors3" class="colors">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+              <select id="size3" class="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="RC">
+              <img class="stars" src="clipart4821483.png">
+              <p>400 ratings</p>
+              <img onclick="getOption4(3)" class="add-to-cart" src="clipart410284.png">
+            </div>
+          </div>
+        </div> 
+
+
+        <div class="hoody-preview">
+          <div class="hoodie-image">
+            <img id="hoody" src="calihoodie1.jpg">         
+          </div>
+          <div class="hoodie-info">
+            <p id="Hoodie5-name"></p>
+            <p id="Hoodie5-price"></p>
+            <div class="metaData">
+              <select id="colors4" class="colors">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+              <select id="size4" class="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="RC">
+              <img class="stars" src="clipart4821497.png">
+              <p>321 ratings</p>
+              <img onclick="getOption5(4)" class="add-to-cart" src="clipart410284.png">
+            </div>
+          </div>
+        </div> 
+
+
+        <div class="hoody-preview">
+          <div class="hoodie-image">
+            <img id="hoody" src="sunhoodie1.jpg">         
+          </div>
+          <div class="hoodie-info">
+            <p id="Hoodie6-name"></p>
+            <p id="Hoodie6-price"></p>
+            <div class="metaData">
+              <select id="colors5" class="colors">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+              <select id="size5" class="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="RC">
+              <img class="stars" src="clipart676982.png">
+              <p>472 ratings</p>
+              <img onclick="getOption6(5)" class="add-to-cart" src="clipart410284.png">
+            </div>
+          </div>
+        </div> 
+
+
+        <div class="hoody-preview">
+          <div class="hoodie-image">
+            <img id="hoody" src="blueTech.png">         
+          </div>
+          <div class="hoodie-info">
+            <p id="Hoodie7-name"></p>
+            <p id="Hoodie7-price"></p>
+            <div class="metaData">
+              <select id="colors6" class="colors">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+              <select id="size6" class="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="RC">
+              <img class="stars" src="clipart676982.png">
+              <p>333 ratings</p>
+              <img onclick="getOption7(6)" class="add-to-cart" src="clipart410284.png">
+            </div>
+          </div>
+        </div> 
+
+
+        <div class="hoody-preview">
+          <div class="hoodie-image">
+            <img id="hoody" src="redtech.jpg">         
+          </div>
+          <div class="hoodie-info">
+            <p id="Hoodie8-name"></p>
+            <p id="Hoodie8-price"></p>
+            <div class="metaData">
+              <select id="colors7" class="colors">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+              <select id="size7" class="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="RC">
+              <img class="stars" src="clipart4821483.png">
+              <p>109 ratings</p>
+              <img onclick="getOption8(7)" class="add-to-cart" src="clipart410284.png">
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="hoody-preview">
+          <div class="hoodie-image">
+            <img id="hoody" src="hoodie3.jpg">         
+          </div>
+          <div class="hoodie-info">
+            <p id="Hoodie9-name"></p>
+            <p id="Hoodie9-price"></p>
+            <div class="metaData">
+              <select id="colors8" class="colors">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="purple">Purple</option>
+              </select>
+              <select id="size8" class="size">
+                <option value="small">S</option>
+                <option value="medium">M</option>
+                <option value="large">L</option>
+              </select>
+            </div>
+            <div class="RC">
+              <img class="stars" src="clipart4821497.png">
+              <p>203 ratings</p>
+              <img onclick="getOption8(7)" class="add-to-cart" src="clipart410284.png">
+            </div>
+          </div>
+        </div> 
+      
+
+    </div>
+</body>
+</html>

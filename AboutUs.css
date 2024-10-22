@@ -1,0 +1,41 @@
+.aboutUs{
+  width: 50%;
+  transform: translateX(200px);
+  margin-top: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.body{
+  background-image: url(aboutUs.jpg) ;
+  background-size: cover;
+}
+.info{
+  width: 50%;
+  transform: translateX(200px);
+  display: flex;
+  justify-content: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  
+}
+.emailUs{
+  margin-top: 20px;
+  width: 50%;
+  transform: translateX(200px);
+  display: flex;
+  justify-content: center;
+  
+}
+.head{
+  font-size: large;
+  color: rgba(36, 36, 232, 0.8);
+}
+.label{
+  color: rgba(36, 36, 232, 0.8);
+}
+.main{
+  font-size: medium;
+  color: blueviolet;
+}

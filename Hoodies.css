@@ -1,0 +1,100 @@
+.content{
+  width: 100%;
+  height: 330vh;
+  background-image: url(lo.png) ;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.cart{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+#cartinfo{
+  background-color: red;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  z-index: 2;
+  transform: translateX(12px) translateY(6px);
+}
+#cartAmount{
+  transform: translateY(-2px) translateX(2px);
+}
+
+ul li{
+  display: inline;
+  list-style: none;
+  margin: 10px 25px;
+}
+ul li a{
+  color: aliceblue;
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+}
+ul li a::after{
+  content: '';
+  width: 0;
+  height: 4px;
+  left: 0;
+  bottom: -3px;
+  background: rgb(255, 255, 255);
+  position: absolute;
+  transition: 0.6s;
+}
+ul li a:hover::after{
+  width: 100%;
+}
+.title{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.hoody-preview{
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+#hoody{
+  width: 120px;
+  height: 120px;
+  padding-left: 20px;
+}
+.hoodie-info{
+  padding-left: 5px;
+}
+.add-to-cart{
+  padding-left: 3px;
+  width: 10px;
+  height: 10px;
+}
+.stars{
+  width: 60px;
+  height: 10px; 
+}
+.RC{
+  display: flex;
+}
+
+.add-to-cart:hover{
+  cursor: pointer;
+}
+.colors{
+  width: 38px;
+  height: 15px;
+  font-size: 5px;
+  outline: 1px;
+}
+
+.size{
+  width: 30px;
+  height: 15px;
+  font-size: 5px;
+  outline: 1px;
+}
+.metaData{
+  padding-bottom: 3px;
+}

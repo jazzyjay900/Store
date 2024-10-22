@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="invoice.css">
+  <title>Invoice</title>
+  <script defer src="invoice.js"></script>
+</head>
+<body>
+  <div class="content">
+    <div class="navbar">
+      <a href="index.html"><div class="logoBox">
+         <img id="logo" src="logo.png">
+        </div>
+      </a>
+      <div class="middle">
+        <input type="search" placeholder="Search">
+      </div>
+      <div>
+        <div class="cartinfo">
+          <p id="cartAmount"></p>
+        </div>
+       <img class="cart" src="cart.png">  
+      </div>
+    </div>
+    
+    <div class="body">
+      <div class="invoice"><p>Invoice</p></div>
+      <div id="receipt"></div>
+      <div id="total"></div>
+      <div class="checkout"><button onclick="checkout()" class="clear">Check Out</button></div>
+    </div>
+  </div>
+</body>
+</html>
